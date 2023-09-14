@@ -2,7 +2,7 @@
 
 
 document.addEventListener('DOMContentLoaded', () =>{
-    let name = prompt(); // Prompt ile kullanıcı ismini aldık
+    let name = prompt("Kullanıcı Adınızı Giriniz"); // Prompt ile kullanıcı ismini aldık
     let username = document.querySelector('#myName') // querySelector ile yazdıracağımız div'in bilgilerini aldık
     username.innerHTML = name; // div'in içeriğini belirrttik
 })
